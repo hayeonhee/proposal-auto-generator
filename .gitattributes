@@ -1,0 +1,7 @@
+* text=auto
+
+# 쉘 스크립트(.sh)는 윈도우에서 수정해도 무조건 LF(맥/리눅스용)로 저장 강제
+*.sh text eol=lf
+
+# 배치 파일(.bat)은 무조건 CRLF(윈도우용)로 저장 강제
+*.bat text eol=crlf
